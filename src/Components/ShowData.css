@@ -1,0 +1,80 @@
+#page-header {
+    background-color: gray;
+    color: greenyellow;
+    padding: 10px;
+    font-size: 26px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: greenyellow;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    float: right;
+    border: none;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.heading {
+    left: 0%;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.date {
+    background-color: orange;
+
+}
+
+.product {
+    background-color: skyblue;
+}
+
+.price {
+    background-color: purple;
+}
+
+.name {
+    background-color: steelblue;
+}
+
+.result {
+    display: flex;
+}
+
+.total {
+    width: 200px;
+    height: 20px;
+    background-color: skyblue;
+    padding: 5px;
+    color: black;
+    margin: 2px;
+
+}
+
+.sum {
+    background-color: orange;
+}
+
+.Ramesh {
+    background-color: rgb(102, 102, 158);
+}
+
+.Rahul {
+    background-color: rgb(76, 76, 243);
+}
+
+.payable {
+    background-color: brown;
+}

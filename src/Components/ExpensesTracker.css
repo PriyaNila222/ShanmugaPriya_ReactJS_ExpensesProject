@@ -1,0 +1,63 @@
+.form-position {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    width: 100%;
+
+}
+
+#expenses-header {
+    width: 50%;
+    background-color: rgb(204, 245, 180);
+    border-radius: 4px;
+    padding: 2px;
+    margin-left: 25%;
+    font-size: 18px;
+    color: black;
+}
+
+#expenses-header p {
+    color: black;
+    font-size: 14px;
+    text-align: left;
+    padding: 1px;
+}
+
+#expenses-header p span {
+    color: red;
+}
+
+.container p::after {
+    content: "*";
+    color: red;
+}
+
+.container {
+    width: 50%;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 4px;
+    text-align: left;
+    padding: 5px;
+    margin-left: 25%;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: white;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.form-button {
+    background-color: rgb(204, 245, 180);
+    color: black;
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    font-weight: bolder;
+    border-radius: 5px;
+
+}
